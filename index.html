@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <div class="invoice mt-5 mb-5">
+          <div class="container mt-2">
+            <h2>Brand Name</h2>
+          </div>
+          <div class="bg-success">
+            <h1 class="lay1">INVOICE</h1>
+          </div>
+          <div class="row justify-content-around">
+            <div class="">
+              <h3>Invoice to:</h3>
+              <span id="name">Kola John</span><br />
+              <span id="location">asldn ababad audblad</span>
+            </div>
+            <div>
+              <span>Invoice#</span><br />
+              <span>Date</span>
+            </div>
+            <div>
+              <span id="rrr">3834y2829</span><br />
+              <span id="date">20/15/2020</span>
+            </div>
+          </div>
+          <br />
+          <div class="container">
+            <table class="table table-striped">
+              <thead class="bg-dark text-white">
+                <tr>
+                  <th>SL</th>
+                  <th>Item Description</th>
+                  <th>Price</th>
+                  <th>Qty</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <select name="Items" id="item">
+                      <option value="meat">Meat</option>
+                      <option value="Rice">Rice</option>
+                      <option value="Fish">Fish</option>
+                      <option value="Beans">Beans</option>
+                    </select>
+                  </td>
+                  <td><span id="price"></span></td>
+                  <td>
+                    <select name="Qty" id="qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </td>
+                  <td><span id="total"></span></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                    <select name="Items" id="item">
+                      <option value="meat">Meat</option>
+                      <option value="Rice">Rice</option>
+                      <option value="Fish">Fish</option>
+                      <option value="Beans">Beans</option>
+                    </select>
+                  </td>
+                  <td><span id="price"></span></td>
+                  <td>
+                    <select name="Qty" id="qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </td>
+                  <td><span id="total"></span></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                    <select name="Items" id="item">
+                      <option value="meat">Meat</option>
+                      <option value="Rice">Rice</option>
+                      <option value="Fish">Fish</option>
+                      <option value="Beans">Beans</option>
+                    </select>
+                  </td>
+                  <td><span id="price"></span></td>
+                  <td>
+                    <select name="Qty" id="qty">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </td>
+                  <td><span id="total"></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="container lay2 d-flex justify-content-between">
+            <div>
+              <b><p>Thank you for your business</p></b>
+            </div>
+            <div>
+              <div class="row justify-content-between">
+                <div class="ml-1">Sub Total:</div>
+                <div class="money" id="sub_price">8030</div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="ml-1">Delivery fee:</div>
+                <div class="money" id="delivery_fee">8030</div>
+              </div>
+              <div class="row justify-content-between bg-primary">
+                <div class="ml-1"><b>Total:</b></div>
+                <div class="money" id="total">8030</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div>
+              <b><p>Recievers info:</p></b>
+            </div>
+            <div class="container lay2">
+              <div class="row justify-content-between">
+                <div>Name:</div>
+                <div class="money" id="reciever_name">Joshua timilehin</div>
+              </div>
+              <div class="row justify-content-between">
+                <div>Mobile Number:</div>
+                <div class="money" id="reciever_number">08163582700</div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-success mt-3 mb-3">
+            <h6 class="lay3">SHOPMORE</h6>
+          </div>
+          <div class="row mb-3">
+            <div>PHONE #</div>
+            <div>ADDRESS</div>
+            <div>WEBSITE</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
