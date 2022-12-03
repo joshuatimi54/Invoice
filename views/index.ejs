@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="responsiveness.css" />
+  </head>
+  <body>
+    <header class="container mt-5">
+      <div><h2>Brand Name</h2></div>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          totam delectus recusandae hic, iste quae voluptatibus explicabo
+          aperiam illum eos exercitationem tempore at! Reprehenderit error eius
+          vero odio quas excepturi?
+        </p>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="invoice container">
+          <form class="mt-3 pb-3" action="" method="get">
+            <label for="general"
+              ><b><h3>Customer's Details</h3></b></label
+            >
+            <br />
+
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              onchange=""
+              placeholder="Full Name"
+            />
+            <br /><br />
+
+            <label for="name">Email address</label><br />
+            <input type="text" name="email" placeholder="Email Address" />
+            <br /><br />
+
+            <label for="name">Mobile number</label><br />
+            <input type="number" name="phone" placeholder="Mobile number" />
+            <br /><br />
+
+            <label for="name">Address</label><br />
+            <select id="mySelect" onchange="myfunction(changelocation)">
+              <option value="Location A">Location A</option>
+              <option value="Location B">Location B</option>
+              <option value="Location C">Location C</option>
+              <option value="Location D">Location D</option>
+              <option value="Location E">Location E</option>
+            </select>
+            <br /><br />
+
+            <label for="name">Item</label><br />
+            <select name="" id="Address">
+              <option value="">None</option>
+              <option value="">Meat 1kg</option>
+              <option value="">Fish 1kg</option>
+              <option value="">Rice</option>
+              <option value="">Beans</option>
+              <option value="">Groundnut oil 1L</option>
+            </select>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="qty">Quantity</label>
+            <input type="number" name="qty" id="qty" />
+            <br />
+
+            <label for="name">Item</label><br />
+            <select name="" id="Address">
+              <option value="">None</option>
+              <option value="">Meat 1kg</option>
+              <option value="">Fish 1kg</option>
+              <option value="">Rice</option>
+              <option value="">Beans</option>
+              <option value="">Groundnut oil 1L</option>
+            </select>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="qty">Quantity</label>
+            <input type="number" name="qty" id="qty" />
+            <br />
+
+            <label for="name">Item</label><br />
+            <select name="" id="Address">
+              <option value="">None</option>
+              <option value="">Meat 1kg</option>
+              <option value="">Fish 1kg</option>
+              <option value="">Rice</option>
+              <option value="">Beans</option>
+              <option value="">Groundnut oil 1L</option>
+            </select>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="qty">Quantity</label>
+            <input type="number" name="qty" id="qty" />
+            <br />
+
+            <label for="name">Item</label><br />
+            <select name="" id="Address">
+              <option value="">None</option>
+              <option value="">Meat 1kg</option>
+              <option value="">Fish 1kg</option>
+              <option value="">Rice</option>
+              <option value="">Beans</option>
+              <option value="">Groundnut oil 1L</option>
+            </select>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="qty">Quantity</label>
+            <input type="number" name="qty" id="qty" />
+            <br />
+
+            <label for="name">Item</label><br />
+            <select name="" id="Address">
+              <option value="">None</option>
+              <option value="">Meat 1kg</option>
+              <option value="">Fish 1kg</option>
+              <option value="">Rice</option>
+              <option value="">Beans</option>
+              <option value="">Groundnut oil 1L</option>
+            </select>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="qty">Quantity</label>
+            <input type="number" name="qty" id="qty" />
+            <br /><br />
+
+            <label for="name">Price</label><br />
+            <input type="text" disabled placeholder="Item Price" />
+            <br /><br />
+
+            <button class="btn-new">
+              <span class="add"></span>
+              <span>Add new item</span>
+            </button>
+          </form>
+        </div>
+        <div class="invoice mt-5 mb-5">
+          <div class="container mt-2">
+            <h2>Brand Name</h2>
+          </div>
+          <div class="bg-success">
+            <h1 class="lay1">INVOICE</h1>
+          </div>
+          <div class="container">
+            <h3>Invoice to:</h3>
+          </div>
+
+          <div class="container flex-row justify-content-around">
+            <div class="">
+              <span id="setname">Kola John</span><br />
+              <span id="setlocation"></span>
+            </div>
+            <div class="d-inline-flex">
+              <div>
+                <span>Invoice:</span><br />
+                <span>Date:</span>
+              </div>
+              &nbsp;
+              <div>
+                <span id="rrr">3834y2829</span><br />
+                <span id="date">20/15/2020</span>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <div class="container overflow-auto">
+            <table class="table table-striped">
+              <thead class="bg-dark text-white">
+                <tr>
+                  <th>SL</th>
+                  <th>Item Description</th>
+                  <th>Price</th>
+                  <th>Qty</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    <span id="item"></span>
+                  </td>
+                  <td><span id="price"></span></td>
+                  <td>
+                    <span id="qty"></span>
+                  </td>
+                  <td><span id="total"></span></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                    <span id="item"></span>
+                  </td>
+                  <td><span id="price"></span></td>
+                  <td>
+                    <span id="qty"></span>
+                  </td>
+                  <td><span id="total"></span></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                    <span id="item"></span>
+                  </td>
+                  <td><span id="price"></span></td>
+                  <td>
+                    <span id="qty"></span>
+                  </td>
+                  <td><span id="total"></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="container lay2 d-flex justify-content-between">
+            <div>
+              <b><p>Thank you for your business</p></b>
+            </div>
+            <div>
+              <div class="row justify-content-between">
+                <div class="ml-1">Sub Total:</div>
+                <div class="money" id="sub_price">8030</div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="ml-1">Delivery fee:</div>
+                <div class="money" id="delivery_fee">8030</div>
+              </div>
+              <div class="row justify-content-between bg-primary">
+                <div class="ml-1"><b>Total:</b></div>
+                <div class="money" id="total">8030</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div>
+              <b><p>Recievers info:</p></b>
+            </div>
+            <div class="container lay2">
+              <div class="row justify-content-between">
+                <div>Name:</div>
+                <div class="money" id="reciever_name">Joshua timilehin</div>
+              </div>
+              <div class="row justify-content-between">
+                <div>Mobile Number:</div>
+                <div class="money" id="reciever_number">08163582700</div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-success mt-3 mb-3">
+            <h6 class="lay3">SHOPMORE</h6>
+          </div>
+          <div class="row mb-3">
+            <div>PHONE #</div>
+            <div>ADDRESS</div>
+            <div>WEBSITE</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>dkdk</div>
+    </footer>
+
+    <script>
+      function myFunction(changelocation) {
+        var x = document.getElementById("mySelect").ariaValueMax;
+        document.getElementById("setlocation").innerHTML = "You selected: " + x;
+      };
+    </script>
+  </body>
+</html>
